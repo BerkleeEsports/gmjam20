@@ -1,15 +1,28 @@
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- Showcase Grid Section -->
+    <section id="showcase">
         <div class="container portfolio-flex-grid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <h2>G/M Jam '20 Showcase</h2>
+                    <hr class="star">
+                </div>
+            </div>
+            <div class= "portfolio-flex-grid">
+                <iframe width="100%" height="720" src="https://www.youtube.com/embed/yPN95cj5g7o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="awards" style="background-color: #E41E3B;">
+        <div class="container portfolio-flex-grid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color: aliceblue;"> Awards </h2 id="awards">
+                    <hr class="star">
                 </div>
             </div>
             <div class="portfolio-flex-row">
-                {% for post in site.posts %}
+                <!-- {% for post in site.posts %}
                     <div class="portfolio-flex-item portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -20,7 +33,92 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
-                {% endfor %}
+                {% endfor %} -->
+
+                <!-- #1 HELSTRIFE -->
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="color: aliceblue;text-align: center;font-size: xx-large;">
+                                <b>Helstrife</b>
+                                <br >
+                                <small style="font-size: large;">Best Musical Adaptation</small>
+                            </div>
+                        </div>
+                        <iframe width="100%" height="100%   " src="https://www.youtube.com/embed/HQlCHFx4JW0" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                </div>
+
+                <!-- #2 Reunited -->
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="color: aliceblue;text-align: center;font-size: xx-large;">
+                                <b>Reunited</b>
+                                <br >
+                                <small style="font-size: large;">Best Gameplay</small>
+                            </div>
+                        </div>
+                        <iframe width="100%" height="100%   " src="https://www.youtube.com/embed/b-SBF5kEy7c" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                </div>
+
+                <!-- #3 Reclaiming the Past -->
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="color: aliceblue;text-align: center;font-size: xx-large;">
+                                <b>Reclaiming the Past</b>
+                                <br >
+                                <small style="font-size: large;">Best Score</small>
+                            </div>
+                        </div>
+                        <iframe width="100%" height="100%   " src="https://www.youtube.com/embed/psvsj_YLr0A" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-flex-row" style="margin-top: 10em;">
+                <!-- #4 Campfyr -->
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="color: aliceblue;text-align: center;font-size: xx-large;">
+                                <b>Campfyr</b>
+                                <br >
+                                <small style="font-size: large;">Best Narrative</small>
+                            </div>
+                        </div>
+                        <iframe width="100%" height="100%   " src="https://www.youtube.com/embed/r2kdfbefDQE" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                </div>
+
+                <!-- #5 Momento Mori -->
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="color: aliceblue;text-align: center;font-size: xx-large;">
+                                <b>Momento Mori</b>
+                                <br >
+                                <small style="font-size: large;"> Best Thematic Interpretation</small>
+                            </div>
+                        </div>
+                        <iframe width="100%" height="100%   " src="https://www.youtube.com/embed/JPgZGaYQV-4" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                </div>
+
+                <!-- #6 Recollection Day -->
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="color: aliceblue;text-align: center;font-size: xx-large;">
+                                <b>Recollection Day</b>
+                                <br >
+                                <small style="font-size: large;"> Best Visuals</small>
+                            </div>
+                        </div>
+                        <iframe width="100%" height="100%   " src="https://www.youtube.com/embed/JKZDh6bA_3Y" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                </div>                
             </div>
         </div>
     </section>

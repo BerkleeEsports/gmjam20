@@ -4,7 +4,7 @@ email: esportsclub@berklee.edu
 url: 
 description: "Berklee G/M Jam '20, Hosted by Berklee Esports and VGMOST"
 keywords: "music, game, gamejam, videogame, video, dev, hackathon, jam, berklee, berklee esports, esports"
-skills: "THIS IS SKILLS EDIT THIS FOR WHAT TEXT WE WANT IN THAT SPOT"
+skills: "Hosted by Berklee Esports and VGMOST"
 meta_author: Berklee Esports
 
 # Google webmaster tools
@@ -25,7 +25,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: E41E3B #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
